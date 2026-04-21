@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="card-content">
           <span class="categoria">${noticia.categoria}</span>
           <h4>${noticia.titulo}</h4>
-          <p>${noticia.descripcion}</p>
+          <p>${noticia.resumen}</p>
           <small>${noticia.autor} - ${noticia.fecha}</small>
         </div>
         `;
