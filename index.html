@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Profeta</title>
+  <meta name="description" content="El Profeta - Noticias y actualidad." />
+  <link rel="icon" href="./assets/favicon/logo-cine.png" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <span>Lunes, 20 de Abril de 2026</span>
+    <span>☀ 13°C</span>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <h1>El Profeta</h1>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="pages/noticas-top.html">Últimas noticias</a>
+    <a href="pages/equipo.html">Equipo</a>
+    <a href="pages/contacto.html">Contacto</a>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- NOTICIA PRINCIPAL -->
+    <section class="principal">
+      <img src="./assets/img/el-profeta-stock.png" alt="img principal">
+      <div class="contenido">
+        <h2>La inteligencia artificial transforma el periodismo digital</h2>
+        <p>Las redacciones adoptan herramientas de IA para mejorar la experiencia del lector.</p>
+        <button>Ver más</button>
+      </div>
+    </section>
+
+    <!-- CONTENIDO -->
+    <div class="grid">
+
+      <!-- IZQUIERDA -->
+      <section class="noticias">
+        <h3>Noticias recientes</h3>
+
+        <!-- 🔥 Acá JS inserta las cards -->
+        <div id="contenedor-noticias"></div>
+      </section>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="box">
+          <h3>Noticias cargadas por usuarios</h3>
+
+          <!-- 🔥 También podés llenar esto con JS después -->
+          <ul id="lista-usuarios">
+            <li>IA en periodismo</li>
+            <li>Clima en Neuquén</li>
+            <li>Economía 2026</li>
+          </ul>
+        </div>
+
+      </aside>
+    </div>
+
+  </main>
+
+  <!-- SCRIPTS (orden correcto) -->
+  <script src="./js/data.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+</html>

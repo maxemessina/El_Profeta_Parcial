@@ -1,0 +1,22 @@
+.card img {
+  width: 100%;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-content h4 {
+  margin: 0;
+  font-size: 18px;
+}
