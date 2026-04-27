@@ -1,17 +1,23 @@
+const botonAtras = document.getElementById('boton_atras');
+
+botonAtras.addEventListener('click', () => {
+    window.location.href = '../index.html'; 
+});
+
 const equipo = [
 {
     nombre: "Valentina Guerrieri",
     rol: "Periodista especializada en deporte ",
     img: "../assets/img/valen.jpg",
-    info: "Cubre eventos deportivos internacionales y entrevistas exclusivas.",
+    info: "",
     pais: "Argentina",
     experiencia: "5 años de experiencia"
 },
 {
     nombre: "Maximo Messina",
-    rol: "Periodista especializado en Politica",
+    rol: "Periodista locas y fotografo de prensa",
     img: "../assets/img/maxime.jpg",
-    info: "Analiza la actualidad política nacional e internacional, con foco en elecciones, debates legislativos y entrevistas a referentes del ámbito público.",
+    info: "Analiza la actualidad, entrevistas a referentes del ambito publico y documenta acontecimientos a traves de las imagenes.",
     pais: "Argentina",
     experiencia: "8 años de experiencia"
 },
@@ -19,31 +25,31 @@ const equipo = [
     nombre: "Maximo Moraes",
     rol: "Periodista especializado en cultura e historia",
     img: "../assets/img/maximm.jpg",
-    info: "Explora el impacto de la cultura y la historia en la sociedad actual. Realiza notas sobre arte, patrimonio y procesos históricos relevantes.",
+    info: "Explora el impacto de la cultura y la historia en la sociedad actual. Realiza notas sobre arte, patrimonio y procesos históricos relevantes, cine y lectura.",
     pais: "Argentina",
     experiencia: "3 años de experiencia"
 },
 {
     nombre: "Lucas Rojas",
-    rol: "Periodista especializado en Ciencia",
+    rol: "Periodista de Servicio o Utilitario",
     img: "../assets/img/lucas.jpg",
-    info: "Divulga avances científicos y tecnológicos de forma clara y accesible. Se enfoca en innovación, salud y descubrimientos recientes.",
+    info: "encargado de divulgar e informar sobre recomendaciones personales, experiencias o consejos útiles para la vida cotidiana",
     pais: "Argentina",
     experiencia: "5 años de experiencia"
 },
 {
     nombre: "Priscila Arrimada",
-    rol: "Periodista de Sucesos/Policial",
+    rol: "Periodista especializada en Tecnologias y Ciencias de la computacion",
     img: "../assets/img/pri.jpg",
-    info: "Cubre noticias policiales y casos de actualidad con enfoque investigativo, brindando información precisa y seguimiento de cada caso.",
+    info: "Informa sobre las nuevas y mas actuales novedades sobre informatica, IT y ingenieria en Sistemas, con amplia cobertura en el desarrollo de tecnologias.",
     pais: "Argentina",
     experiencia: "10 años de experiencia"
 },
 {
     nombre: "Tomas Astudillo",
-    rol: "Periodista de Guerra/Corresponsal",
+    rol: "Periodista de Deportivo",
     img: "../assets/img/tomi.jpg",
-    info: "Reporta desde zonas de conflicto y contextos internacionales complejos, aportando una mirada directa y humana de los hechos.",
+    info: "Cubre eventos deportivos internacionales y entrevistas exclusivas.",
     pais: "Argentina",
     experiencia: "7 años de experiencia"
 }   
