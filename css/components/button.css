@@ -5,3 +5,11 @@
   padding: 8px 12px;
   cursor: pointer;
 }
+#prev{
+  display: flex;
+  justify-items: right;
+}
+#next{
+  display: flex;
+  justify-items: left;
+}
