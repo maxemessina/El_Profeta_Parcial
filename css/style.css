@@ -144,3 +144,27 @@ input {
   margin-top:15%;
   text-align: center;
 }
+
+.principal{
+  display: flex;
+  justify-content: center;}
+
+.principal .contenido h2 {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--color-principal);
+}
+.contacto-form label {
+  color: var(--color-texto);
+  font-weight: 600;
+  font-size: 18px;
+}
+
