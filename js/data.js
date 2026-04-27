@@ -130,6 +130,17 @@ const noticias = [
     vistas: 7300,
     categoria: "Universidad",
     autor: "Valentina Guerrieri"
+  },
+  {
+    "id": 13,
+    "titulo": "Caos en el examen de Redes: un estudiante intentó usar ChatGPT y terminó hackeando el proyector",
+    "resumen": "Lo que empezó como un intento de 'ayuda extra' terminó con el proyector del aula magna transmitiendo videos de gatitos en bucle durante dos horas.",
+    "contenido": "Durante el parcial de Redes de Datos, un alumno cuya identidad se mantiene en reserva intentó conectar su Raspberry Pi a la red local para consultar una IA. Sin embargo, un error en la configuración del script provocó una inyección de paquetes que tomó control del sistema multimedia. El titular de la cátedra, lejos de enojarse, declaró: 'No sabe qué es una máscara de subred, pero el bypass que le hizo al firewall del decanato merece un 4'.",
+    "imagen": "../assets/img/el-profeta-stock.png",
+    "fecha": "2026-04-27T19:30:00",
+    "vistas": 12450,
+    "categoria": "Insólito",
+    "autor": "Valentina Guerrieri"
   }
 ];
 
