@@ -7,9 +7,10 @@
 }
 #prev{
   display: flex;
-  justify-items: right;
+  left: 10px;
 }
 #next{
   display: flex;
-  justify-items: left;
+  right: 10px;
+  z-index: 2; /*subo la prioridad 1 mas que la tarjeta para que la tarjeta no tape el boton*/ 
 }

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let index = 0;
     let slides = [];
 
-    // 👉 crear TODAS las cards una sola vez
+    // crear TODAS las cards una sola vez
     ultimasNoticias.forEach((Noticia, i) => {
         const card = document.createElement("div");
         card.classList.add("CardUltimaNoticia");
@@ -39,9 +39,5 @@ document.addEventListener("DOMContentLoaded", () => {
         index = (index - 1 + slides.length) % slides.length;
         updateSlider();
     });
-
-
-
-;
 
 })
