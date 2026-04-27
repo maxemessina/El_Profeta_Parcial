@@ -11,3 +11,12 @@
 .btn:hover {
   background: #95291d;
 }
+#prev{
+  display: flex;
+  left: 10px;
+}
+#next{
+  display: flex;
+  right: 10px;
+  z-index: 2; /*subo la prioridad 1 mas que la tarjeta para que la tarjeta no tape el boton*/ 
+}
