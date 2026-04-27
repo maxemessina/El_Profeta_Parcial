@@ -24,7 +24,7 @@ body {
   background: var(--color-fondo);
 }
 
-/* TOPBAR */
+
 .topbar {
   background: var(--color-fondo);
   padding: 5px 20px;
@@ -33,7 +33,7 @@ body {
   font-size: 14px;
 }
 
-/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -48,12 +48,12 @@ header h1 {
   margin: 0;
 }
 
-/* MAIN */
+
 main {
   padding: 20px;
 }
 
-/* PRINCIPAL */
+
 .principal {
   display: flex;
   gap: 20px;
@@ -69,7 +69,7 @@ main {
   width: 55%;
 }
 
-/* SIDEBAR */
+
 .sidebar {
   flex: 1;
 }
@@ -143,4 +143,15 @@ input {
 .UltimasNoticias{
   margin-top:15%;
   text-align: center;
+}
+.principal{
+  width: 100%;
+  justify-content: center;
+}
+.principal h2{
+  display: flex;
+  align-self: start;
+}
+.contacto.card{
+  text-align: start;
 }
