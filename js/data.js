@@ -41,7 +41,7 @@ const noticias = [
     fecha: "2026-04-18T09:10:00",
     vistas: 12500,
     categoria: "Tecnología",
-    autor: "Máximo Moraes"
+    autor: "Priscila Arrimada"
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const noticias = [
     fecha: "2026-04-17T16:30:00",
     vistas: 15200,
     categoria: "Entretenimiento",
-    autor: "Priscila Arrimada"
+    autor: "Maximo Moraes"
   },
   {
     id: 7,
