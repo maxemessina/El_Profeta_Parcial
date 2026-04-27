@@ -1,13 +1,22 @@
 .btn {
-  background: #c0392b;
-  color: white;
+  background: var(--color-principal);
+  color: var(--color-fondo);
   border: none;
+  border-radius: 6px;
   padding: 8px 12px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.contacto-form .botones {
+.btn:hover {
+  background: #95291d;
+}
+#prev{
   display: flex;
-  gap: 10px;
-  margin-top: 10px;
+  left: 10px;
+}
+#next{
+  display: flex;
+  right: 10px;
+  z-index: 2; /*subo la prioridad 1 mas que la tarjeta para que la tarjeta no tape el boton*/ 
 }

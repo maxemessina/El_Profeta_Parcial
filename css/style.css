@@ -3,16 +3,30 @@
 @import url(./components/card.css);
 @import url(./components/footer.css);
 @import url(./components/grids.css);
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+:root {
+  --color-principal: #c0392b;
+  --color-fondo: #f5f5f5;
+  --color-borde: #ddd;
+  --color-texto: #222;
+}
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f5f5f5;
+  background: var(--color-fondo);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: var(--color-fondo);
 }
 
 /* TOPBAR */
 .topbar {
-  background: #eee;
+  background: var(--color-fondo);
   padding: 5px 20px;
   display: flex;
   justify-content: space-between;
@@ -28,7 +42,10 @@ header {
 }
 
 header h1 {
-  font-family: serif;
+  font-family: 'UnifrakturMaguntia', 'Old English Text MT', serif;
+  font-size: 4rem; 
+  letter-spacing: 1px; 
+  margin: 0;
 }
 
 /* MAIN */
@@ -44,12 +61,12 @@ main {
 }
 
 .principal img {
-  width: 60%;
+  max-height: 350px;
   border-radius: 5px;
 }
 
 .principal .contenido {
-  width: 40%;
+  width: 55%;
 }
 
 /* SIDEBAR */
@@ -67,12 +84,6 @@ main {
 input {
   width: 100%;
   padding: 8px;
-}
-
-.noticias {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
 }
 
 /* ESTILOS DETALLE */
@@ -113,26 +124,23 @@ input {
   line-height: 1.6;
   color: #222;
 }
-
-/* CONTACTO */
-.contacto-form {
+.slider {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  align-items: center;
+  gap: 15px;
   width: 100%;
-  max-width: 500px;
-  margin: 50px auto 0;
+  margin: auto;
 }
 
-#mensaje-exito {
-  color: green;
-  font-weight: bold;
-  margin-top: 15px;
+#Container_UltimasNoticias {
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 15%;
+  width: 100%;
+  height: 400px;
+}
+.UltimasNoticias{
+  margin-top:15%;
   text-align: center;
-}
-
-.principal .contenido {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
