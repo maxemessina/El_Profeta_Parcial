@@ -12,6 +12,8 @@
   --color-texto: #222;
 }
 
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -62,6 +64,7 @@ main {
 
 .principal img {
   max-height: 350px;
+  max-width: 400px;
   border-radius: 5px;
 }
 
@@ -143,4 +146,47 @@ input {
 .UltimasNoticias{
   margin-top:15%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  header {
+    justify-content: center;
+    padding: 15px 10px; /* Achicamos un toque el padding lateral para que respire mejor */
+  }
+  
+  header h1 {
+    text-align: center; /* Por las dudas, forzamos el centrado del texto también */
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row; /* Lo mantenemos en fila */
+    justify-content: center;
+  }
+
+  .principal {
+    flex-direction: column;
+  }
+  
+  .principal img {
+    width: 100%;
+    margin: 0 auto 15px auto; /* El margin auto centra la imagen si llega a ser más chica */
+  }
+  
+  .principal .contenido {
+    width: 100%;
+  }
+
+  .grid {
+    flex-direction: column; /* Pasa el sidebar abajo de las noticias */
+  }
+
+  #contenedor-noticias .card {
+    width: 100%;
+  }
+  
+  #contenedor-equipo {
+    flex-direction: column;
+    align-items: center;
+  }
 }
