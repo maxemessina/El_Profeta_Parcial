@@ -113,3 +113,26 @@ input {
   line-height: 1.6;
   color: #222;
 }
+
+/* CONTACTO */
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto 0;
+}
+
+#mensaje-exito {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.principal .contenido {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

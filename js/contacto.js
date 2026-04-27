@@ -49,9 +49,7 @@ form.addEventListener("submit", function(e) {
     return;
   }
 
-  // 5. Éxito
+  // 5. Mensaje de enviado exitosamente y reseteo del formulario
   mensajeExito.style.display = "block";
-
-  // Limpiar formulario
   form.reset();
 });
