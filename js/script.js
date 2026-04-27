@@ -1,27 +1,21 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const contenedor = document.getElementById("contenedor-noticias");
+const cajaNoticias = document.getElementById('contenedor-noticias');
+let tarjetasGeneradas = "";
 
-  function renderNoticias() {
-    contenedor.innerHTML = ""; // limpiamos solo el contenedor, no el título
+const noticiasFiltradas = noticias.filter(noti => noti.id !== 1);
 
-    noticias.forEach(noticia => {
-      const card = document.createElement("div");
-      card.classList.add("card");
-
-      card.innerHTML = `
-        <img src="${noticia.imagen}" class="card-img" alt="">
-        <div class="card-content">
-          <span class="categoria">${noticia.categoria}</span>
-          <h4>${noticia.titulo}</h4>
-          <p>${noticia.resumen}</p>
-          <small>${noticia.autor} - ${noticia.fecha}</small>
-        </div>
-        `;
-
-      contenedor.appendChild(card);
-    });
-  }
-
-  renderNoticias();
+noticiasFiltradas.forEach(noti => {
+    tarjetasGeneradas += `
+        <article class="card">
+            <div class="card-content">
+                <h4>${noti.titulo}</h4>
+                <p>${noti.resumen}</p>
+                <br>
+                <a href="pages/detalle.html?id=${noti.id}" class="btn">Ver más</a>
+            </div>
+        </article>
+    `;
 });
 
+if (cajaNoticias) {
+    cajaNoticias.innerHTML = tarjetasGeneradas;
+}
