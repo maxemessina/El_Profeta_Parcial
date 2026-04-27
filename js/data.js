@@ -132,3 +132,61 @@ const noticias = [
     autor: "Valentina Guerrieri"
   }
 ];
+
+const ultimasNoticias = [
+  {
+    id: 101,
+    titulo: "Alumno descubre que el bug era un ; faltante después de 3 horas",
+    resumen: "El hallazgo ocurrió tras una intensa sesión de debugging y crisis existencial frente al monitor.",
+    contenido: "Luego de revisar línea por línea, el estudiante encontró que el error se debía a la ausencia de un punto y coma. 'Sabía que era algo simple', declaró mientras apagaba la PC con resignación.",
+    imagen: "../assets/img/el-profeta-stock.png",
+    fecha: "2026-04-25T17:30:00",
+    vistas: 1200,
+    categoria: "Programación",
+    autor: "Tomás Astudillo"
+  },
+  {
+    id: 102,
+    titulo: "Se cae el servidor justo antes de la entrega del TP",
+    resumen: "Estudiantes reportan fallas masivas en la plataforma minutos antes del deadline.",
+    contenido: "El sistema colapsó debido a la alta demanda. Algunos alumnos lograron subir el archivo en el último segundo, mientras otros ya preparan el discurso para el profesor.",
+    imagen: "../assets/img/el-profeta-stock.png",
+    fecha: "2026-04-25T15:10:00",
+    vistas: 3400,
+    categoria: "Universidad",
+    autor: "Lucas Rojas"
+  },
+  {
+    id: 103,
+    titulo: "Nuevo café en Bahía Blanca promete WiFi que nunca se corta",
+    resumen: "El local apunta directamente a estudiantes y freelancers cansados de perder conexión.",
+    contenido: "El emprendimiento asegura tener conexión redundante y generadores propios. 'Acá el WiFi no se cae nunca', afirmó el dueño con total seguridad.",
+    imagen: "../assets/img/el-profeta-stock.png",
+    fecha: "2026-04-25T13:00:00",
+    vistas: 2100,
+    categoria: "Local",
+    autor: "Máximo Messina"
+  },
+  {
+    id: 104,
+    titulo: "Profesor dice 'es fácil' y desata el caos en el aula",
+    resumen: "La frase generó confusión y desesperación entre los alumnos.",
+    contenido: "Tras escuchar 'esto es fácil', varios estudiantes comenzaron a cuestionar sus decisiones de vida. El ejercicio, claramente, no era fácil.",
+    imagen: "../assets/img/el-profeta-stock.png",
+    fecha: "2026-04-25T11:45:00",
+    vistas: 5000,
+    categoria: "Universidad",
+    autor: "Valentina Guerrieri"
+  },
+  {
+    id: 105,
+    titulo: "Actualización rompe todo y nadie sabe por qué",
+    resumen: "Un simple cambio en producción generó errores en cadena.",
+    contenido: "El equipo aún intenta entender qué pasó. 'Solo cambiamos una línea', dijeron, mientras todo el sistema dejaba de funcionar.",
+    imagen: "../assets/img/el-profeta-stock.png",
+    fecha: "2026-04-25T09:20:00",
+    vistas: 6100,
+    categoria: "Tecnología",
+    autor: "Máximo Moraes"
+  }
+];
