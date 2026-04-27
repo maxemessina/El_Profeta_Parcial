@@ -71,3 +71,16 @@
   padding: 10px;
   border-radius: 8px;
 }
+
+#contenedor-noticias {
+  display: flex;
+  flex-wrap: wrap;  /* Esto es lo que permite que bajen a la siguiente línea */
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+#contenedor-noticias .card {
+  width: calc(50% - 10px); /* Ocupa la mitad del espacio menos la mitad del gap */
+  margin-bottom: 0; /* Reseteamos el margen porque ya usamos gap en el contenedor */
+  box-sizing: border-box;
+}
