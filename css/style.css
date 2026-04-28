@@ -12,8 +12,6 @@
   --color-texto: #222;
 }
 
-
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -26,7 +24,6 @@ body {
   background: var(--color-fondo);
 }
 
-/* TOPBAR */
 .topbar {
   background: var(--color-fondo);
   padding: 5px 20px;
@@ -35,7 +32,6 @@ body {
   font-size: 14px;
 }
 
-/* HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -50,12 +46,10 @@ header h1 {
   margin: 0;
 }
 
-/* MAIN */
 main {
   padding: 20px;
 }
 
-/* PRINCIPAL */
 .principal {
   display: flex;
   gap: 20px;
@@ -72,7 +66,6 @@ main {
   width: 55%;
 }
 
-/* SIDEBAR */
 .sidebar {
   flex: 1;
 }
@@ -151,16 +144,16 @@ input {
 @media (max-width: 768px) {
   header {
     justify-content: center;
-    padding: 15px 10px; /* Achicamos un toque el padding lateral para que respire mejor */
+    padding: 15px 10px;
   }
   
   header h1 {
-    text-align: center; /* Por las dudas, forzamos el centrado del texto también */
+    text-align: center;
   }
   
   nav {
     display: flex;
-    flex-direction: row; /* Lo mantenemos en fila */
+    flex-direction: row;
     justify-content: center;
   }
 
@@ -170,7 +163,7 @@ input {
   
   .principal img {
     width: 100%;
-    margin: 0 auto 15px auto; /* El margin auto centra la imagen si llega a ser más chica */
+    margin: 0 auto 15px auto;
   }
   
   .principal .contenido {
@@ -178,7 +171,7 @@ input {
   }
 
   .grid {
-    flex-direction: column; /* Pasa el sidebar abajo de las noticias */
+    flex-direction: column;
   }
 
   #contenedor-noticias .card {
@@ -201,15 +194,14 @@ input {
   margin-top: 20px;
 }
 
-.contacto-form {
+.form {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: var(--color-principal);
+  background: var(--color-borde);
 }
-.contacto-form label {
+.form label {
   color: var(--color-texto);
   font-weight: 600;
   font-size: 18px;
 }
-
