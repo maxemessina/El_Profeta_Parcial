@@ -20,3 +20,9 @@
   right: 10px;
   z-index: 2; /*subo la prioridad 1 mas que la tarjeta para que la tarjeta no tape el boton*/ 
 }
+
+.botones {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
