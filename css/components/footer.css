@@ -11,7 +11,7 @@ footer h3{
 #lista_usuarios{
     display: flex;
     flex-direction: row;
-    gap:35%;
+    gap:25%;
     align-items: end;
     margin-bottom: 0;
 }
