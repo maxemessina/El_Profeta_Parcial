@@ -7,9 +7,9 @@ botonAtras.addEventListener('click', () => {
 const equipo = [
 {
     nombre: "Valentina Guerrieri",
-    rol: "Periodista especializada en deporte ",
+    rol: "Periodista encargada de la UTN",
     img: "../assets/img/valen.jpg",
-    info: "",
+    info: "Informa sobre los datos mas importantes y destacados de la actividad universitaria en la UTN.",
     pais: "Argentina",
     experiencia: "5 años de experiencia"
 },
