@@ -1,0 +1,9 @@
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+/* NOTICIAS */
+.noticias {
+  flex: 2;
+}

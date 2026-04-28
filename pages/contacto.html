@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El Profeta - Noticias y actualidad." />
+  <title>Contacto | El Profeta</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../assets/favicon/profeta.png" type="image/png">
+</head>
+<body>
+
+  <div class="topbar">
+    <paragraph>Lunes, 20 de Abril de 2026</paragraph>
+    <paragraph>☀ 13°C</paragraph>
+  </div>
+
+  <header>
+    <h1>El Profeta</h1>
+  </header>
+
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="noticias.html">Últimas noticias</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+
+  <section class="principal">
+    <div class="contenido">
+      <h2>¡Dejanos tu mensaje!</h2>
+
+      <form id="form-contacto" class="card form">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" rows="4"></textarea>
+
+        <div class="botones">
+          <button type="submit", class="btn">Enviar</button>
+          <button type="reset", class="btn">Borrar</button>
+        </div>
+
+      </form>
+
+      <p id="mensaje-exito" style="display:none;">
+        Mensaje enviado correctamente. ¡Gracias por contactarnos!
+      </p>
+
+      <div class="box" style="margin-top: 30px; text-align: center;">
+        <h2>¿Querés ser redactor?</h2>
+        <p>Ahora podés subir tu propia noticia a El Profeta.</p>
+        <a href="cargar.html" class="btn">Crear Noticia</a>
+    </div>
+
+    </div>
+  </section>    
+</main>
+
+<footer class="footer">
+      <p>&copy; 2026 El Profeta. Todos los derechos reservados.</p>
+</footer>
+
+    <script src="../js/contacto.js"></script>
+</body>
+</html>

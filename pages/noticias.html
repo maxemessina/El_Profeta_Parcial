@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último Momento | El Profeta</title>
+    <meta name="description" content="El Profeta - Noticias y actualidad." />
+    <link rel="icon" href="../assets/favicon/profeta.png" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="top_bar">
+    <paragraph>Lunes, 20 de Abril de 2026</paragraph>
+    <paragraph>☀ 13°C</paragraph>
+</div>
+
+<header>
+    <h1>El Profeta</h1>
+</header>
+
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="noticias.html">Últimas noticias</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<main>
+<section class="ultimas_noticias">
+    <h3>Ultimas Noticias</h3>
+    <div class="mov_noticias">
+
+        <button id="prev">◀</button>
+
+        <div id="container_ultimas_noticias"></div>
+        
+        <button id="next">▶</button>
+
+    </div>
+</section>
+<footer>
+
+        <div>
+        <h3>Noticias cargadas por usuarios</h3>
+
+        <ul id="lista_usuarios">
+            <li>IA en periodismo</li>
+            <li>Clima en Neuquén</li>
+            <li>Economía 2026</li>
+        </ul>
+        </div>
+</footer>
+
+</main>
+
+<!-- SCRIPTS (orden correcto) -->
+<script src="../js/data.js"></script>
+<script type="module" src="../js/noticias.js"></script>
+
+</body>
+</html>
