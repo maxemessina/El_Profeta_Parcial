@@ -18,12 +18,18 @@ form.addEventListener("submit", function(e) {
   }
 
   // 2. Longitud texto
-  if (nombre.length < 3 || nombre.length > 25) {
+  if (titulo.length < 3 || titulo.length > 25) {
     alert("El titulo debe tener entre 3 y 25 caracteres");
     return;
   }
 
-  // 3. Mensaje de enviado exitosamente y reseteo del formulario
+  // 3. Guardar noticia en localStorage
+
+  let notiusuarios = JSON.parse(localStorage.getItem("notiusuarios")) || [];
+  notiusuarios.append({ titulo: titulo, resumen: resumen });
+  localStorage.setItem("notiusuarios", JSON.stringify(notiusuarios));
+
+  // 4. Mensaje de enviado exitosamente y reseteo del formulario
   mensajeExito.style.display = "block";
   form.reset();
 });
