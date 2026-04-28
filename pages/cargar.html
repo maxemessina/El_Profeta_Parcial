@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear Noticia - El Profeta</title>
+  <meta name="description" content="El Profeta - Noticias y actualidad." />
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="./assets/favicon/profeta.png" />
+</head>
+<body>
+
+  <div class="topbar">
+    <span>Lunes, 20 de Abril de 2026</span>
+    <span>☀ 13°C</span>
+  </div>
+
+  <header>
+    <h1>El Profeta</h1>
+  </header>
+
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="noticias.html">Últimas noticias</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+    <section class="principal">
+      <div class="contenido" style="width: 100%; max-width: 600px; margin: 0 auto;">
+        
+        <h2 style="text-align: center;">¡Publicá tu noticia!</h2>
+        <p style="text-align: center;">Redactá tu propio titular para que aparezca en la portada.</p>
+
+        <form id="form-crear-noticia" class="card form">
+          
+          <label for="titulo">Titular:</label>
+          <input type="text" id="titulo">
+          
+          <label for="resumen">Resumen:</label>
+          <textarea id="resumen" rows="4"></textarea> 
+
+          <div class="botones">
+            <button type="submit" class="btn">Publicar ahora</button>
+            <a href="../index.html" class="btn">Cancelar</a>
+          </div>
+
+        </form>
+
+        <p id="mensaje-exito" style="display:none;">
+          ¡Noticia publicada con éxito! Volviendo a la portada...
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+      <p>&copy; 2026 El Profeta. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="../js/crear-noticia.js"></script>
+</body>
+</html>

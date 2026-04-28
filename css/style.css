@@ -24,8 +24,7 @@ body {
   background: var(--color-fondo);
 }
 
-
-.top_bar {
+.topbar {
   background: var(--color-fondo);
   padding: 5px 20px;
   display: flex;
@@ -48,11 +47,9 @@ header h1 {
   margin: 0;
 }
 
-
 main {
   padding: 20px;
 }
-
 
 .principal {
   display: flex;
@@ -62,13 +59,13 @@ main {
 
 .principal img {
   max-height: 350px;
+  max-width: 400px;
   border-radius: 5px;
 }
 
 .principal .contenido {
   width: 55%;
 }
-
 
 .sidebar {
   flex: 1;
@@ -156,6 +153,48 @@ input {
   text-align: start;
 }
 
+@media (max-width: 768px) {
+  header {
+    justify-content: center;
+    padding: 15px 10px;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .principal {
+    flex-direction: column;
+  }
+  
+  .principal img {
+    width: 100%;
+    margin: 0 auto 15px auto;
+  }
+  
+  .principal .contenido {
+    width: 100%;
+  }
+
+  .grid {
+    flex-direction: column;
+  }
+
+  #contenedor-noticias .card {
+    width: 100%;
+  }
+  
+  #contenedor-equipo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .principal{
   display: flex;
   justify-content: center;}
@@ -167,15 +206,14 @@ input {
   margin-top: 20px;
 }
 
-.contacto-form {
+.form {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: var(--color-principal);
+  background: var(--color-borde);
 }
-.contacto-form label {
+.form label {
   color: var(--color-texto);
   font-weight: 600;
   font-size: 18px;
 }
-

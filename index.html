@@ -10,18 +10,15 @@
 </head>
 <body>
 
-  <!-- TOP BAR -->
   <div class="topbar">
-    <span>Lunes, 20 de Abril de 2026</span>
-    <span>☀ 13°C</span>
+    <paragraph>Lunes, 20 de Abril de 2026</paragraph>
+    <paragraph>☀ 13°C</paragraph>
   </div>
 
-  <!-- HEADER -->
   <header>
     <h1>El Profeta</h1>
   </header>
 
-  <!-- NAV -->
   <nav>
     <a href="#">Inicio</a>
     <a href="pages/noticias.html">Últimas noticias</a>
@@ -29,10 +26,8 @@
     <a href="pages/contacto.html">Contacto</a>
   </nav>
 
-  <!-- MAIN -->
   <main>
 
-    <!-- NOTICIA PRINCIPAL -->
     <section class="principal">
       <img src="./assets/img/el-profeta-stock.png" alt="Escándalo en la UTN">
       <div class="contenido">
@@ -43,40 +38,24 @@
     </section>
 
     <h3>Noticias recientes</h3>
-    <!-- CONTENIDO -->
     <div class="grid">
-      <!-- IZQUIERDA -->
       <section class="noticias">
-        <!-- 🔥 Acá JS inserta las cards -->
         <div id="contenedor-noticias"></div>
-      </section>
-
-      <!-- SIDEBAR -->
-      <aside class="sidebar">
-
-        <div class="box">
-          <h3>Noticias cargadas por usuarios</h3>
-
-          <!-- 🔥 También podés llenar esto con JS después -->
-          <ul id="lista-usuarios">
-            <li>IA en periodismo</li>
-            <li>Clima en Neuquén</li>
-            <li>Economía 2026</li>
-          </ul>
-        </div>
-
-      </aside>
+      </section>    
     </div>
+
     <section class="noticias">
         <div id="contenedor-noticias"></div>
         <div style="text-align: center; margin-top: 20px;">
         <button id="btn-cargar-mas" class="btn">Cargar más noticias</button>
         </div>
-      </section>
-    
+    </section>
   </main>
 
-  <!-- SCRIPTS (orden correcto) -->
+  <footer class="footer">
+      <p>&copy; 2026 El Profeta. Todos los derechos reservados.</p>
+  </footer>
+
   <script src="./js/data.js"></script>
   <script src="./js/script.js"></script>
 
